@@ -1,0 +1,23 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://localhost:4000/gsoc2025-Ashish_Ramesh/</id>
+  <title>Ashish Ramesh</title>
+  <subtitle>Blog, internship, work experience.</subtitle>
+  <updated>2025-05-18T13:35:32+05:30</updated>
+  <author>
+    <name>Ashish Ramesh</name>
+    <uri>http://localhost:4000/gsoc2025-Ashish_Ramesh/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4000/gsoc2025-Ashish_Ramesh/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en"
+    href="http://localhost:4000/gsoc2025-Ashish_Ramesh/"/>
+  <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
+  <rights> © 2025 Ashish Ramesh </rights>
+  <icon>/gsoc2025-Ashish_Ramesh/assets/img/favicons/favicon.ico</icon>
+  <logo>/gsoc2025-Ashish_Ramesh/assets/img/favicons/favicon-96x96.png</logo>
+
+
+</feed>
+
+
