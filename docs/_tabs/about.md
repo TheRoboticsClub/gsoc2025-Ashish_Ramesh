@@ -4,7 +4,13 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Hello!
-{: .prompt-tip }
+<!-- > Hello!
+{: .prompt-tip } -->
 
-Blog that compiles the activities and tasks completed as part of my Gsoc'25 Project with JdeRobot.
+Hi, I'm Ashish Ramesh, a GSoC 2025 contributor working with JdeRobot on the project 
+
+“Robotics-Academy: Support for Solutions Directly Using ROS 2 Topics”.
+
+This blog is where I’ll be documenting my weekly progress, thoughts, blockers, and takeaways throughout the summer. The goal of my project is to help bring native ROS 2 support to Robotics Academy exercises, making them more aligned with real-world robotics development practices.
+
+Feel free to follow along as I share updates each week. 🚀

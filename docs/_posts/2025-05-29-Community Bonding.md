@@ -1,13 +1,30 @@
 ---
-title: Community Bonding
+title: Community Bonding (May 16 ~ 25)
 date: 2025-05-25
-categories: [Landing, D1]
-tags: [landing, d1, wsl2, django, docker]     # TAG names should always be lowercase
+categories: [Community Bonding]
+tags: [community bonding, intro, robotics-academy]     # TAG names should always be lowercase
 ---
 
-# Test Blog 
+# Community Bonding Period 
 
-Test Blog 
+I'm excited to be working with the **JdeRobot** community on the **Robotics-Academy** project through **Google Summer of Code 2025**! My project is titled:
 
-> Test Blog
+> _"Robotics-Academy: Support for Solutions Directly Using ROS 2 Topics"_
+
+Google Summer of Code kicks off with a **Community Bonding** phase, where contributors get to know their mentors, interact with the community, and deepen their understanding of the organization and the project.
+
+## Objectives for this week
+
+- Set up this blog using **Jekyll** and **GitHub Pages** 
+- Publish my first post for the community bonding phase 
+- Interact with mentors and get more involved in the community 
+
+## Progress so far
+
+This week, I focused on setting up this blog you’re reading right now! I also reached out to my mentors, joined the community Slack, and got familiar with how things work at JdeRobot.
+We have our first official team meeting next week, where we’ll go over logistics and finalize timelines.
+
+I also had the opportunity to attend the **Google Summer of Code 2025 Contributor Welcome Session** hosted by Google, which was a great way to learn more about the program and what’s ahead.
+
+> Stay tuned for weekly updates as I begin development in the coming weeks!
 {: .prompt-tip }

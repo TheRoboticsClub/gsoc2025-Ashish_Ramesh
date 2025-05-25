@@ -2,9 +2,9 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://localhost:4000/gsoc2025-Ashish_Ramesh/</id>
-  <title>Ashish Ramesh</title>
+  <title>Ashish Ramesh | JdeRobot x GSoC 2025</title>
   <subtitle>Blog, internship, work experience.</subtitle>
-  <updated>2025-05-25T08:38:33+05:30</updated>
+  <updated>2025-05-25T11:20:46+05:30</updated>
   <author>
     <name>Ashish Ramesh</name>
     <uri>http://localhost:4000/gsoc2025-Ashish_Ramesh/</uri>
@@ -20,8 +20,8 @@
 
   
   <entry>
-    <title>Community Bonding</title>
-    <link href="http://localhost:4000/gsoc2025-Ashish_Ramesh/posts/Community-Bonding/" rel="alternate" type="text/html" title="Community Bonding" />
+    <title>Community Bonding (May 16 ~ 25)</title>
+    <link href="http://localhost:4000/gsoc2025-Ashish_Ramesh/posts/Community-Bonding/" rel="alternate" type="text/html" title="Community Bonding (May 16 ~ 25)" />
     <published>2025-05-25T00:00:00+05:30</published>
   
     <updated>2025-05-25T00:00:00+05:30</updated>
@@ -34,18 +34,19 @@
 
   
     
-    <category term="Landing" />
-    
-    <category term="D1" />
+    <category term="Community Bonding" />
     
   
 
-  <summary>Test Blog
+  <summary>Community Bonding Period
 
-Test Blog
+I’m excited to be working with the JdeRobot community on the Robotics-Academy project through Google Summer of Code 2025! My project is titled:
 
 
-  Test Blog</summary>
+  “Robotics-Academy: Support for Solutions Directly Using ROS 2 Topics”
+
+
+Google Summer of Code kicks off with a Community Bonding phase, where contributors get to know their mentors, interact with the community, and deepen t...</summary>
 
   </entry>
 
