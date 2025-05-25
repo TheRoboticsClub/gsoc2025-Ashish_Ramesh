@@ -4,7 +4,7 @@
   <id>http://localhost:4000/gsoc2025-Ashish_Ramesh/</id>
   <title>Ashish Ramesh</title>
   <subtitle>Blog, internship, work experience.</subtitle>
-  <updated>2025-05-18T14:31:52+05:30</updated>
+  <updated>2025-05-25T08:38:33+05:30</updated>
   <author>
     <name>Ashish Ramesh</name>
     <uri>http://localhost:4000/gsoc2025-Ashish_Ramesh/</uri>
@@ -17,6 +17,37 @@
   <icon>/gsoc2025-Ashish_Ramesh/assets/img/favicons/favicon.ico</icon>
   <logo>/gsoc2025-Ashish_Ramesh/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Community Bonding</title>
+    <link href="http://localhost:4000/gsoc2025-Ashish_Ramesh/posts/Community-Bonding/" rel="alternate" type="text/html" title="Community Bonding" />
+    <published>2025-05-25T00:00:00+05:30</published>
+  
+    <updated>2025-05-25T00:00:00+05:30</updated>
+  
+    <id>http://localhost:4000/gsoc2025-Ashish_Ramesh/posts/Community-Bonding/</id>
+    <content type="text/html" src="http://localhost:4000/gsoc2025-Ashish_Ramesh/posts/Community-Bonding/" />
+    <author>
+      <name>Ashish Ramesh</name>
+    </author>
+
+  
+    
+    <category term="Landing" />
+    
+    <category term="D1" />
+    
+  
+
+  <summary>Test Blog
+
+Test Blog
+
+
+  Test Blog</summary>
+
+  </entry>
 
 </feed>
 
