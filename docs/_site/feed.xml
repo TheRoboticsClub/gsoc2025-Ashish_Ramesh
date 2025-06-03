@@ -3,8 +3,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://localhost:4000/gsoc2025-Ashish_Ramesh/</id>
   <title>Ashish Ramesh | JdeRobot x GSoC 2025</title>
-  <subtitle>Blog, internship, work experience.</subtitle>
-  <updated>2025-05-25T11:27:08+05:30</updated>
+  <subtitle>Weekly GSoC updates, ROS 2 development logs, and open source contributions with JdeRobot during Google Summer of Code 2025.</subtitle>
+  <updated>2025-06-03T17:08:20+05:30</updated>
   <author>
     <name>Ashish Ramesh</name>
     <uri>http://localhost:4000/gsoc2025-Ashish_Ramesh/</uri>
@@ -17,6 +17,48 @@
   <icon>/gsoc2025-Ashish_Ramesh/assets/img/favicons/favicon.ico</icon>
   <logo>/gsoc2025-Ashish_Ramesh/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Community Bonding Week 2 (May 26 ~ June 2)</title>
+    <link href="http://localhost:4000/gsoc2025-Ashish_Ramesh/posts/Community-Bonding-2/" rel="alternate" type="text/html" title="Community Bonding Week 2 (May 26 ~ June 2)" />
+    <published>2025-06-03T00:00:00+05:30</published>
+  
+    <updated>2025-06-03T00:00:00+05:30</updated>
+  
+    <id>http://localhost:4000/gsoc2025-Ashish_Ramesh/posts/Community-Bonding-2/</id>
+    <content type="text/html" src="http://localhost:4000/gsoc2025-Ashish_Ramesh/posts/Community-Bonding-2/" />
+    <author>
+      <name>Ashish Ramesh</name>
+    </author>
+
+  
+    
+    <category term="Community Bonding" />
+    
+  
+
+  <summary>Hi there! 👋
+Here’s my Week 2 update during the Community Bonding period of GSoC 2025 with JdeRobot.
+
+
+
+Objectives for the Week:
+
+  Attend the first official community bonding meeting with the organization mentors and fellow contributors.
+  Set up my local development environment.
+  Have a one-on-one project discussion with my mentors.
+
+
+
+
+Community Bonding Meet (Organization-wide)
+
+
+
+We had our...</summary>
+
+  </entry>
 
   
   <entry>

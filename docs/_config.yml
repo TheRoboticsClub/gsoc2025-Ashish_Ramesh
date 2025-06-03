@@ -19,8 +19,8 @@ title: Ashish Ramesh | JdeRobot x GSoC 2025 # the main title
 tagline: Blog tracking my Gsoc'25 project progress @ JdeRobot. # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  Blog, internship, work experience.
-
+  Weekly GSoC updates, ROS 2 development logs, and open source contributions with JdeRobot during Google Summer of Code 2025.
+  
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
 url: "https://theroboticsclub.github.io"
