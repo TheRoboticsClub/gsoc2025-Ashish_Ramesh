@@ -4,7 +4,7 @@
   <id>http://localhost:4000/gsoc2025-Ashish_Ramesh/</id>
   <title>Ashish Ramesh | JdeRobot x GSoC 2025</title>
   <subtitle>Weekly GSoC updates, ROS 2 development logs, and open source contributions with JdeRobot during Google Summer of Code 2025.</subtitle>
-  <updated>2025-06-03T17:08:20+05:30</updated>
+  <updated>2025-06-09T12:57:12+05:30</updated>
   <author>
     <name>Ashish Ramesh</name>
     <uri>http://localhost:4000/gsoc2025-Ashish_Ramesh/</uri>
@@ -17,6 +17,42 @@
   <icon>/gsoc2025-Ashish_Ramesh/assets/img/favicons/favicon.ico</icon>
   <logo>/gsoc2025-Ashish_Ramesh/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Week 1 - Coding Period Begins! (June 2 ~ 9)</title>
+    <link href="http://localhost:4000/gsoc2025-Ashish_Ramesh/posts/Week-1/" rel="alternate" type="text/html" title="Week 1 - Coding Period Begins! (June 2 ~ 9)" />
+    <published>2025-06-09T00:00:00+05:30</published>
+  
+    <updated>2025-06-09T00:00:00+05:30</updated>
+  
+    <id>http://localhost:4000/gsoc2025-Ashish_Ramesh/posts/Week-1/</id>
+    <content type="text/html" src="http://localhost:4000/gsoc2025-Ashish_Ramesh/posts/Week-1/" />
+    <author>
+      <name>Ashish Ramesh</name>
+    </author>
+
+  
+    
+    <category term="Coding Period" />
+    
+    <category term="Phase One" />
+    
+  
+
+  <summary>Hey everyone! 
+This week officially kicked off the GSoC 2025 coding period! I’m thrilled to be contributing to JdeRobot through the project:
+“Robotics-Academy: Support for Solutions Directly Using ROS 2 Topics.”
+
+
+
+Objectives for the Week
+
+
+  Understand how the RAM backend handles user code execution (on_run_application() and prepare_RA_code())
+  Run ROS 2-native code inside the Follow Line exe...</summary>
+
+  </entry>
 
   
   <entry>

@@ -16,7 +16,7 @@ timezone: Asia/Kolkata
 
 title: Ashish Ramesh | JdeRobot x GSoC 2025 # the main title
 
-tagline: Blog tracking my Gsoc'25 project progress @ JdeRobot. # it will display as the subtitle
+tagline: Blog tracking my GSoC'25 project progress @ JdeRobot. # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   Weekly GSoC updates, ROS 2 development logs, and open source contributions with JdeRobot during Google Summer of Code 2025.

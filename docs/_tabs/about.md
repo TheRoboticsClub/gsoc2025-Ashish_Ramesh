@@ -7,7 +7,7 @@ order: 4
 <!-- > Hello!
 {: .prompt-tip } -->
 
-Hi, I'm Ashish Ramesh, a GSoC 2025 contributor working with JdeRobot on the project 
+Hi, I'm Ashish Ramesh, a Google Summer of Code (GSoC) 2025 contributor working with JdeRobot on the project 
 
 **“Robotics-Academy: Porting Exercises to Native ROS2 with Direct Topic Integration ”.**
 
