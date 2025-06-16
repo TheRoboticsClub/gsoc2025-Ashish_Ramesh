@@ -4,7 +4,7 @@
   <id>http://localhost:4000/gsoc2025-Ashish_Ramesh/</id>
   <title>Ashish Ramesh | JdeRobot x GSoC 2025</title>
   <subtitle>Weekly GSoC updates, ROS 2 development logs, and open source contributions with JdeRobot during Google Summer of Code 2025.</subtitle>
-  <updated>2025-06-09T12:57:12+05:30</updated>
+  <updated>2025-06-16T12:32:03+05:30</updated>
   <author>
     <name>Ashish Ramesh</name>
     <uri>http://localhost:4000/gsoc2025-Ashish_Ramesh/</uri>
@@ -17,6 +17,43 @@
   <icon>/gsoc2025-Ashish_Ramesh/assets/img/favicons/favicon.ico</icon>
   <logo>/gsoc2025-Ashish_Ramesh/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Week 2 - ROS 2 Spin Logic &amp; Design Decisions (June 10 ~ 16)</title>
+    <link href="http://localhost:4000/gsoc2025-Ashish_Ramesh/posts/week-2/" rel="alternate" type="text/html" title="Week 2 - ROS 2 Spin Logic &amp;amp; Design Decisions (June 10 ~ 16)" />
+    <published>2025-06-16T00:00:00+05:30</published>
+  
+    <updated>2025-06-16T00:00:00+05:30</updated>
+  
+    <id>http://localhost:4000/gsoc2025-Ashish_Ramesh/posts/week-2/</id>
+    <content type="text/html" src="http://localhost:4000/gsoc2025-Ashish_Ramesh/posts/week-2/" />
+    <author>
+      <name>Ashish Ramesh</name>
+    </author>
+
+  
+    
+    <category term="Coding Period" />
+    
+    <category term="Phase One" />
+    
+  
+
+  <summary>Hey everyone!
+This week continued the Phase One of my GSoC project with JdeRobot, where I’m working on porting the Follow Line exercise to use ROS 2-native code inside Robotics Academy.
+
+
+
+Objectives for the Week
+
+
+  Clarify whether we should skip prepare_RA_code() or not
+  Understand BT Studio vs RA exercise structure
+  Decide: new exercise vs modifying the current one
+  Make Follow Line work ...</summary>
+
+  </entry>
 
   
   <entry>
