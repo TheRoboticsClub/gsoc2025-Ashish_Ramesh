@@ -1,6 +1,23 @@
 [
   
   {
+    "title": "Week 3 - ROS 2 Frequency Control & Spin Once (June 17 ~ 23)",
+    "url": "/gsoc2025-Ashish_Ramesh/posts/Week-3/",
+    "categories": "Coding Period, Phase One",
+    "tags": "robotics-academy, ros2, follow-line, coding-period, phase-one",
+    "date": "2025-06-23 00:00:00 +0530",
+    
+
+
+
+
+
+    
+    "snippet": "Hey everyone!This week continued the Phase One of my GSoC project with JdeRobot, where I’m working on porting the Follow Line exercise to use ROS 2-native code inside Robotics Academy.Objectives fo...",
+    "content": "Hey everyone!This week continued the Phase One of my GSoC project with JdeRobot, where I’m working on porting the Follow Line exercise to use ROS 2-native code inside Robotics Academy.Objectives for the Week  Open PRs for changes in Robotics Academy and RAM for rclpy.spin()  Add support for rclpy.spin_once() and implement user-controlled frequency  Migration of frequency.py into RA  ROS Native logging support from user codeWhat I Worked OnWe started the week with our weekly sync-up meeting with the mentors to review the progress and plan technical goals.Weekly mentor sync-upThe first major task I worked on was opening my initial PRs for the GSoC project. I created a new branch called ros-native, which will serve as the working branch for all ROS 2-native features. Once stable, it will be merged into production.The PRs this week focused on getting rclpy.spin() and rclpy.spin_once() running inside the existing Robotics Academy framework. With this done, the user can now choose how to control the event loop, and also has the ability to define the frequency of execution within their code. This marks a key milestone in the ROS 2-native migration.After this, I began working on migrating the existing frequency control (currently injected by RAM) into a new module inside RA. While the initial idea was clear, I quickly realized that this change requires deeper structural updates across the RA codebase—especially to support the optional use of frequency.py.I also began prototyping the logging integration. Currently, log output appears in the terminal running Docker, but not in the VNC (in-GUI terminal). On further investigation, I found that the print statements inside the VNC console are routed via an initialization in GUI.py. This means that if GUI.py isn’t imported, the logs don’t show up in the VNC console. I’ll need to explore workarounds or alternative ways to enable logging visibility without requiring the GUI import.PRs &amp; Issues RaisedHere are the key contributions made this week:Issues  Add ROS 2 spin() support to user code  Support for rclpy.spin_once() and user-defined frequency  New frequency control module  Fix logging in VNC ConsolePull Requests  Add ROS 2 spin() support to user code  Support for rclpy.spin_once() and user-defined frequencyKey Learnings &amp; Outcomes  Implemented native ROS 2 loops using rclpy.spin() and rclpy.spin_once() within the existing framework  Enabled frequency control directly via user code, rather than injecting it from RAM  Identified architectural gaps that need to be addressed for logging and frequency.py migration  I will be taking a short break this coming week as I have exams scheduled. I’ll resume development and continue from June 28.Thanks for reading! Next up, I’ll finalize the GUI image publishing mechanism and continue refining the frequency and logging logic to better support ROS 2-native workflows.Until next week —Ashish"
+  },
+  
+  {
     "title": "Week 2 - ROS 2 Spin Logic & Design Decisions (June 10 ~ 16)",
     "url": "/gsoc2025-Ashish_Ramesh/posts/week-2/",
     "categories": "Coding Period, Phase One",
