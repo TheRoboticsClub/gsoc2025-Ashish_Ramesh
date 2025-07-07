@@ -4,7 +4,7 @@
   <id>http://localhost:4000/gsoc2025-Ashish_Ramesh/</id>
   <title>Ashish Ramesh | JdeRobot x GSoC 2025</title>
   <subtitle>Weekly GSoC updates, ROS 2 development logs, and open source contributions with JdeRobot during Google Summer of Code 2025.</subtitle>
-  <updated>2025-06-23T20:47:04+05:30</updated>
+  <updated>2025-07-07T18:18:59+05:30</updated>
   <author>
     <name>Ashish Ramesh</name>
     <uri>http://localhost:4000/gsoc2025-Ashish_Ramesh/</uri>
@@ -17,6 +17,43 @@
   <icon>/gsoc2025-Ashish_Ramesh/assets/img/favicons/favicon.ico</icon>
   <logo>/gsoc2025-Ashish_Ramesh/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Week 4 - Docs Updates &amp; Frequency Control with Rate (June 30 ~ July 07)</title>
+    <link href="http://localhost:4000/gsoc2025-Ashish_Ramesh/posts/Week-4/" rel="alternate" type="text/html" title="Week 4 - Docs Updates &amp;amp; Frequency Control with Rate (June 30 ~ July 07)" />
+    <published>2025-07-06T00:00:00+05:30</published>
+  
+    <updated>2025-07-06T00:00:00+05:30</updated>
+  
+    <id>http://localhost:4000/gsoc2025-Ashish_Ramesh/posts/Week-4/</id>
+    <content type="text/html" src="http://localhost:4000/gsoc2025-Ashish_Ramesh/posts/Week-4/" />
+    <author>
+      <name>Ashish Ramesh</name>
+    </author>
+
+  
+    
+    <category term="Coding Period" />
+    
+    <category term="Phase One" />
+    
+  
+
+  <summary>Hey everyone!
+This week I got back to my GSoC project with JdeRobot after taking a short break for my exams. It’s been good to dive back in and continue with the ROS 2-native port of the Follow Line exercise.
+
+
+
+Objectives for the Week
+
+
+  Implement frequency control using rclpy.Rate
+  Update the exercise documentation page with ROS 2 topics and new module info
+  Fix logging in the VNC Console
+...</summary>
+
+  </entry>
 
   
   <entry>
@@ -167,38 +204,6 @@ Community Bonding Meet (Organization-wide)
 
 
 We had our...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Community Bonding (May 16 ~ 25)</title>
-    <link href="http://localhost:4000/gsoc2025-Ashish_Ramesh/posts/Community-Bonding/" rel="alternate" type="text/html" title="Community Bonding (May 16 ~ 25)" />
-    <published>2025-05-25T00:00:00+05:30</published>
-  
-    <updated>2025-05-25T11:21:54+05:30</updated>
-  
-    <id>http://localhost:4000/gsoc2025-Ashish_Ramesh/posts/Community-Bonding/</id>
-    <content type="text/html" src="http://localhost:4000/gsoc2025-Ashish_Ramesh/posts/Community-Bonding/" />
-    <author>
-      <name>Ashish Ramesh</name>
-    </author>
-
-  
-    
-    <category term="Community Bonding" />
-    
-  
-
-  <summary>Community Bonding Period
-
-I’m excited to be working with the JdeRobot community on the Robotics-Academy project through Google Summer of Code 2025! My project is titled:
-
-
-  “Robotics-Academy: Support for Solutions Directly Using ROS 2 Topics”
-
-
-Google Summer of Code kicks off with a Community Bonding phase, where contributors get to know their mentors, interact with the community, and deepen t...</summary>
 
   </entry>
 
