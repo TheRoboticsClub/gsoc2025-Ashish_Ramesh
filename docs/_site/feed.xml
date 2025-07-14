@@ -4,7 +4,7 @@
   <id>http://localhost:4000/gsoc2025-Ashish_Ramesh/</id>
   <title>Ashish Ramesh | JdeRobot x GSoC 2025</title>
   <subtitle>Weekly GSoC updates, ROS 2 development logs, and open source contributions with JdeRobot during Google Summer of Code 2025.</subtitle>
-  <updated>2025-07-07T18:18:59+05:30</updated>
+  <updated>2025-07-14T20:24:51+05:30</updated>
   <author>
     <name>Ashish Ramesh</name>
     <uri>http://localhost:4000/gsoc2025-Ashish_Ramesh/</uri>
@@ -17,6 +17,42 @@
   <icon>/gsoc2025-Ashish_Ramesh/assets/img/favicons/favicon.ico</icon>
   <logo>/gsoc2025-Ashish_Ramesh/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Week 5 - Mid Term Evaluation &amp; Phase Two Begins! (July 07 ~ July 14)</title>
+    <link href="http://localhost:4000/gsoc2025-Ashish_Ramesh/posts/Week-5/" rel="alternate" type="text/html" title="Week 5 - Mid Term Evaluation &amp;amp; Phase Two Begins! (July 07 ~ July 14)" />
+    <published>2025-07-14T00:00:00+05:30</published>
+  
+    <updated>2025-07-14T00:00:00+05:30</updated>
+  
+    <id>http://localhost:4000/gsoc2025-Ashish_Ramesh/posts/Week-5/</id>
+    <content type="text/html" src="http://localhost:4000/gsoc2025-Ashish_Ramesh/posts/Week-5/" />
+    <author>
+      <name>Ashish Ramesh</name>
+    </author>
+
+  
+    
+    <category term="Coding Period" />
+    
+    <category term="Phase Two" />
+    
+  
+
+  <summary>Hey everyone!
+This week marked an important milestone as I wrapped up the mid-term evaluation and kicked off Phase Two of my GSoC project with JdeRobot. It was a packed week of work to get back on schedule after my exam break, and I’m excited to share the progress.
+
+
+
+Objectives for the Week
+
+
+  ROS Native Solution for follow_line exercise
+  Image output in the GUI
+  Fix logging in the VNC Cons...</summary>
+
+  </entry>
 
   
   <entry>
@@ -162,48 +198,6 @@ Objectives for the Week
 
   Understand how the RAM backend handles user code execution (on_run_application() and prepare_RA_code())
   Run ROS 2-native code inside the Follow Line exe...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Community Bonding Week 2 (May 26 ~ June 2)</title>
-    <link href="http://localhost:4000/gsoc2025-Ashish_Ramesh/posts/Community-Bonding-2/" rel="alternate" type="text/html" title="Community Bonding Week 2 (May 26 ~ June 2)" />
-    <published>2025-06-03T00:00:00+05:30</published>
-  
-    <updated>2025-06-03T00:00:00+05:30</updated>
-  
-    <id>http://localhost:4000/gsoc2025-Ashish_Ramesh/posts/Community-Bonding-2/</id>
-    <content type="text/html" src="http://localhost:4000/gsoc2025-Ashish_Ramesh/posts/Community-Bonding-2/" />
-    <author>
-      <name>Ashish Ramesh</name>
-    </author>
-
-  
-    
-    <category term="Community Bonding" />
-    
-  
-
-  <summary>Hi there! 👋
-Here’s my Week 2 update during the Community Bonding period of GSoC 2025 with JdeRobot.
-
-
-
-Objectives for the Week:
-
-  Attend the first official community bonding meeting with the organization mentors and fellow contributors.
-  Set up my local development environment.
-  Have a one-on-one project discussion with my mentors.
-
-
-
-
-Community Bonding Meet (Organization-wide)
-
-
-
-We had our...</summary>
 
   </entry>
 
