@@ -30,24 +30,24 @@
 
   <!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.4.1" />
-<meta property="og:title" content="Week 3 - ROS 2 Frequency Control &amp; Spin Once (June 17 ~ 23)" />
+<meta property="og:title" content="Week 6 - ROS 2 Follow Line GUI Updates and Vacuum Cleaner Implementation (July 14 ~ July 21)" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="Hey everyone! This week continued the Phase One of my GSoC project with JdeRobot, where I’m working on porting the Follow Line exercise to use ROS 2-native code inside Robotics Academy." />
-<meta property="og:description" content="Hey everyone! This week continued the Phase One of my GSoC project with JdeRobot, where I’m working on porting the Follow Line exercise to use ROS 2-native code inside Robotics Academy." />
-<link rel="canonical" href="http://localhost:4000/gsoc2025-Ashish_Ramesh/posts/Week-3/" />
-<meta property="og:url" content="http://localhost:4000/gsoc2025-Ashish_Ramesh/posts/Week-3/" />
+<meta name="description" content="Hey everyone! This week was quite productive as I continued to work on the ROS 2-native port of the Follow Line and Vacuum Cleaner exercises and made significant progress in implementing the necessary features for a smooth user experience." />
+<meta property="og:description" content="Hey everyone! This week was quite productive as I continued to work on the ROS 2-native port of the Follow Line and Vacuum Cleaner exercises and made significant progress in implementing the necessary features for a smooth user experience." />
+<link rel="canonical" href="http://localhost:4000/gsoc2025-Ashish_Ramesh/posts/Week-6/" />
+<meta property="og:url" content="http://localhost:4000/gsoc2025-Ashish_Ramesh/posts/Week-6/" />
 <meta property="og:site_name" content="Ashish Ramesh JdeRobot x GSoC 2025" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-06-23T00:00:00+05:30" />
+<meta property="article:published_time" content="2025-07-21T00:00:00+05:30" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Week 3 - ROS 2 Frequency Control &amp; Spin Once (June 17 ~ 23)" />
+<meta property="twitter:title" content="Week 6 - ROS 2 Follow Line GUI Updates and Vacuum Cleaner Implementation (July 14 ~ July 21)" />
 <meta name="twitter:site" content="@Ashish_Ramesh03" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-23T00:00:00+05:30","datePublished":"2025-06-23T00:00:00+05:30","description":"Hey everyone! This week continued the Phase One of my GSoC project with JdeRobot, where I’m working on porting the Follow Line exercise to use ROS 2-native code inside Robotics Academy.","headline":"Week 3 - ROS 2 Frequency Control &amp; Spin Once (June 17 ~ 23)","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/gsoc2025-Ashish_Ramesh/posts/Week-3/"},"url":"http://localhost:4000/gsoc2025-Ashish_Ramesh/posts/Week-3/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-07-21T00:00:00+05:30","datePublished":"2025-07-21T00:00:00+05:30","description":"Hey everyone! This week was quite productive as I continued to work on the ROS 2-native port of the Follow Line and Vacuum Cleaner exercises and made significant progress in implementing the necessary features for a smooth user experience.","headline":"Week 6 - ROS 2 Follow Line GUI Updates and Vacuum Cleaner Implementation (July 14 ~ July 21)","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/gsoc2025-Ashish_Ramesh/posts/Week-6/"},"url":"http://localhost:4000/gsoc2025-Ashish_Ramesh/posts/Week-6/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
-  <title>Week 3 - ROS 2 Frequency Control & Spin Once (June 17 ~ 23) | Ashish Ramesh | JdeRobot x GSoC 2025
+  <title>Week 6 - ROS 2 Follow Line GUI Updates and Vacuum Cleaner Implementation (July 14 ~ July 21) | Ashish Ramesh | JdeRobot x GSoC 2025
   </title>
 
   <!--
@@ -445,7 +445,7 @@
         
           
             
-              <span>Week 3 - ROS 2 Frequency Control & Spin Once (June 17 ~ 23)</span>
+              <span>Week 6 - ROS 2 Follow Line GUI Updates and Vacuum Cleaner Implementation (July 14 ~ July 21)</span>
             
 
           
@@ -520,6 +520,132 @@
     
       
       
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+
+    <!-- take out classes -->
+    
+
+    
+    
+
+    
+
+    
+      
+    
+
+    <!-- lazy-load images -->
+    
+
+    
+      <!-- make sure the `<img>` is wrapped by `<a>` -->
+      
+
+      
+        <!-- create the image wrapper -->
+        
+
+        
+        
+      
+    
+
+    <!-- combine -->
+    
+  
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+
+    <!-- take out classes -->
+    
+
+    
+    
+
+    
+
+    
+      
+    
+
+    <!-- lazy-load images -->
+    
+
+    
+      <!-- make sure the `<img>` is wrapped by `<a>` -->
+      
+
+      
+        <!-- create the image wrapper -->
+        
+
+        
+        
+      
+    
+
+    <!-- combine -->
+    
+  
     
 
     
@@ -665,6 +791,38 @@
   
 
   
+    
+    
+
+    
+      
+        
+        
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+
+    
+  
 
   
   
@@ -687,7 +845,7 @@
 
 <article class="px-1" data-toc="true">
   <header>
-    <h1 data-toc-skip>Week 3 - ROS 2 Frequency Control & Spin Once (June 17 ~ 23)</h1>
+    <h1 data-toc-skip>Week 6 - ROS 2 Follow Line GUI Updates and Vacuum Cleaner Implementation (July 14 ~ July 21)</h1>
     
 
     <div class="post-meta text-muted">
@@ -704,13 +862,13 @@
 
 <time
   
-  data-ts="1750617000"
+  data-ts="1753036200"
   data-df="ll"
   
     data-bs-toggle="tooltip" data-bs-placement="bottom"
   
 >
-  Jun 23, 2025
+  Jul 21, 2025
 </time>
 
       </span>
@@ -759,9 +917,9 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="464 words"
+  title="754 words"
 >
-  <em>2 min</em> read</span>
+  <em>4 min</em> read</span>
 
         </div>
       </div>
@@ -770,7 +928,7 @@
 
   
     <div id="toc-bar" class="d-flex align-items-center justify-content-between invisible">
-      <span class="label text-truncate">Week 3 - ROS 2 Frequency Control & Spin Once (June 17 ~ 23)</span>
+      <span class="label text-truncate">Week 6 - ROS 2 Follow Line GUI Updates and Vacuum Cleaner Implementation (July 14 ~ July 21)</span>
       <button type="button" class="toc-trigger btn me-1">
         <i class="fa-solid fa-list-ul fa-fw"></i>
       </button>
@@ -783,7 +941,7 @@
 
     <dialog id="toc-popup" class="p-0">
       <div class="header d-flex flex-row align-items-center justify-content-between">
-        <div class="label text-truncate py-2 ms-4">Week 3 - ROS 2 Frequency Control & Spin Once (June 17 ~ 23)</div>
+        <div class="label text-truncate py-2 ms-4">Week 6 - ROS 2 Follow Line GUI Updates and Vacuum Cleaner Implementation (July 14 ~ July 21)</div>
         <button id="toc-popup-close" type="button" class="btn mx-1 my-1 opacity-75">
           <i class="fas fa-close"></i>
         </button>
@@ -794,75 +952,91 @@
 
   <div class="content">
     <p>Hey everyone!<br />
-This week continued the <strong>Phase One</strong> of my GSoC project with <strong>JdeRobot</strong>, where I’m working on porting the Follow Line exercise to use <strong>ROS 2-native code</strong> inside Robotics Academy.</p>
+This week was quite productive as I continued to work on the <strong>ROS 2-native port of the Follow Line and Vacuum Cleaner exercises</strong> and made significant progress in implementing the necessary features for a smooth user experience.</p>
 
 <hr />
 
 <h3 id="objectives-for-the-week"><span class="me-2">Objectives for the Week</span><a href="#objectives-for-the-week" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
 
 <ul class="task-list">
-  <li class="task-list-item"><i class="fas fa-check-circle fa-fw checked"></i>Open PRs for changes in Robotics Academy and RAM for <code class="language-plaintext highlighter-rouge">rclpy.spin()</code></li>
-  <li class="task-list-item"><i class="fas fa-check-circle fa-fw checked"></i>Add support for <code class="language-plaintext highlighter-rouge">rclpy.spin_once()</code> and implement user-controlled frequency</li>
-  <li class="task-list-item"><i class="far fa-circle fa-fw"></i>Migration of <code class="language-plaintext highlighter-rouge">frequency.py</code> into RA</li>
-  <li class="task-list-item"><i class="far fa-circle fa-fw"></i>ROS Native logging support from user code</li>
+  <li class="task-list-item"><i class="fas fa-check-circle fa-fw checked"></i>Update GUI to support publishing of images for the Web UI (Ros Native Follow Line)</li>
+  <li class="task-list-item"><i class="fas fa-check-circle fa-fw checked"></i>ROS 2 solution example (Subscriber based WebGUI)</li>
+  <li class="task-list-item"><i class="fas fa-check-circle fa-fw checked"></i>Getting started with vaccum cleaner exercise</li>
+  <li class="task-list-item"><i class="fas fa-check-circle fa-fw checked"></i>Vaccum Cleaner Solution ( without GUI implementation )</li>
+  <li class="task-list-item"><i class="fas fa-check-circle fa-fw checked"></i>Vaccum cleaner exercise Docs (Ros Native)</li>
 </ul>
 
 <hr />
 
 <h3 id="what-i-worked-on"><span class="me-2">What I Worked On</span><a href="#what-i-worked-on" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
 
-<p>We started the week with our weekly sync-up meeting with the mentors to review the progress and plan technical goals.</p>
+<p>This week, I focused on implementing the ROS 2-native solution for the Follow Line exercise and started work on the Vacuum Cleaner exercise. The main tasks included updating the GUI to support image publishing for the Web UI, creating a ROS 2 solution example, and with the Vacuum Cleaner exercise.</p>
 
-<p><a href="/gsoc2025-Ashish_Ramesh/assets/lib/week_3.png" class="popup img-link  shimmer"><img src="/gsoc2025-Ashish_Ramesh/assets/lib/week_3.png" alt="Weekly progress update meet" loading="lazy"></a><br />
-<sub><i>Weekly mentor sync-up</i></sub></p>
+<h4 id="follow-line"><span class="me-2">Follow Line</span><a href="#follow-line" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
 
-<p>The first major task I worked on was opening my initial PRs for the GSoC project. I created a new branch called <code class="language-plaintext highlighter-rouge">ros-native</code>, which will serve as the working branch for all ROS 2-native features. Once stable, it will be merged into production.</p>
+<p>The first ticket I worked on was fixing the race condition issue for the <code class="language-plaintext highlighter-rouge">/webgui_image</code> topic in the Follow Line exercise. I implemented a solution where the topic is created in the backend on exercise startup. This ensured that the topic existed when the GUI module was initialized. This way, the GUI module can automatically subscribe to the topic and display the images without requiring the user to manually call <code class="language-plaintext highlighter-rouge">showImage()</code>.</p>
 
-<p>The PRs this week focused on getting <code class="language-plaintext highlighter-rouge">rclpy.spin()</code> and <code class="language-plaintext highlighter-rouge">rclpy.spin_once()</code> running inside the existing Robotics Academy framework. With this done, the user can now choose how to control the event loop, and also has the ability to define the frequency of execution within their code. This marks a key milestone in the ROS 2-native migration.</p>
+<p>I’m happy to report that this solution is working well and the GUI now displays images as expected!</p>
 
 <hr />
 
-<p>After this, I began working on migrating the existing frequency control (currently injected by RAM) into a new module inside RA. While the initial idea was clear, I quickly realized that this change requires deeper structural updates across the RA codebase—especially to support the optional use of <code class="language-plaintext highlighter-rouge">frequency.py</code>.</p>
+<p>After working on the GUI module, I moved on to updating the ROS 2 solution example for the Follow Line exercise. This involved creating a new solution that uses the <code class="language-plaintext highlighter-rouge">/webgui_image</code> topic to publish images, allowing the GUI to automatically subscribe to the topic and display it in the Web UI. I also ensured that the solution is compatible with the ROS 2-native implementation and follows best practices for publishing and subscribing to topics.</p>
 
-<p>I also began prototyping the logging integration. Currently, log output appears in the terminal running Docker, but not in the VNC (in-GUI terminal). On further investigation, I found that the print statements inside the VNC console are routed via an initialization in <code class="language-plaintext highlighter-rouge">GUI.py</code>. This means that if <code class="language-plaintext highlighter-rouge">GUI.py</code> isn’t imported, the logs don’t show up in the VNC console. I’ll need to explore workarounds or alternative ways to enable logging visibility without requiring the GUI import.</p>
+<p><a href="/gsoc2025-Ashish_Ramesh/assets/lib/week_5_fl.gif" class="popup img-link  shimmer"><img src="/gsoc2025-Ashish_Ramesh/assets/lib/week_5_fl.gif" alt="Follow line exercise ROS Native implementation" loading="lazy"></a><br />
+<sub><i>Follow line exercise ROS Native implementation (Using Subscriber based GUI)</i></sub></p>
+
+<hr />
+
+<h4 id="vacuum-cleaner-exercise"><span class="me-2">Vacuum Cleaner Exercise</span><a href="#vacuum-cleaner-exercise" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
+
+<p>I started working on the Vacuum Cleaner exercise, which is another important part of the ROS 2-native port. The first step was to create a basic solution that implements the core functionality of the exercise without the GUI. This involved setting up the necessary ROS 2 nodes, publishers, and subscribers to handle the vacuum cleaner’s operations.</p>
+
+<p>I approached this by prototyping the laser and bumper topics to get and process data into a similar format as the HAL, but implemented by the user code in a ROS-native manner. I was able to successfully implement the basic functionality of the vacuum cleaner, allowing it to navigate and process the laser and bumper data effectively.</p>
+
+<p><a href="/gsoc2025-Ashish_Ramesh/assets/lib/week_6_vc.gif" class="popup img-link  shimmer"><img src="/gsoc2025-Ashish_Ramesh/assets/lib/week_6_vc.gif" alt="Vacuum cleaner exercise ROS Native implementation" loading="lazy"></a><br />
+<sub><i>Vacuum cleaner exercise ROS Native implementation (Prototyping)</i></sub></p>
+
+<hr />
+
+<p>After this, I worked on and successfully implemented the complete ROS 2-native solution for the Vacuum Cleaner exercise. The solution involves the vacuum cleaner navigating through the environment by first exploring it in a spiral pattern and then moving based on that exploration. Here’s a short video of the implementation in action:</p>
+
+<p><a href="/gsoc2025-Ashish_Ramesh/assets/lib/week_6_vc2.gif" class="popup img-link  shimmer"><img src="/gsoc2025-Ashish_Ramesh/assets/lib/week_6_vc2.gif" alt="Vacuum cleaner exercise ROS Native implementation" loading="lazy"></a><br />
+<sub><i>Vacuum cleaner exercise ROS Native implementation</i></sub></p>
+
+<p>Although the implementation works as intended, I still need to work on the GUI integration for this exercise. This will be my focus in the coming week.</p>
+
+<p>I’ve also started working on the documentation for the Vacuum Cleaner exercise, ensuring it provides clear instructions for users to understand how to implement the exercise in a ROS 2-native manner. This includes details on the topics used, expected behaviors, and how to run the exercise. I am considering adding a section on how to get processed data from the topics similar to the HAL approach but with the ROS 2-native implementation. However, I need to discuss this with my mentors to finalize the approach.</p>
 
 <hr />
 
 <h3 id="prs--issues-raised"><span class="me-2">PRs &amp; Issues Raised</span><a href="#prs--issues-raised" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
 
-<p>Here are the key contributions made this week:</p>
+<p>Here are the contributions made this week:</p>
 
 <p><strong>Issues</strong></p>
 <ul>
-  <li><a href="https://github.com/JdeRobot/RoboticsApplicationManager/issues/217">Add ROS 2 spin() support to user code</a></li>
-  <li><a href="https://github.com/JdeRobot/RoboticsApplicationManager/issues/218">Support for rclpy.spin_once() and user-defined frequency</a></li>
-  <li><a href="https://github.com/JdeRobot/RoboticsApplicationManager/issues/219">New frequency control module</a></li>
-  <li><a href="https://github.com/JdeRobot/RoboticsApplicationManager/issues/222">Fix logging in VNC Console</a></li>
+  <li><a href="https://github.com/JdeRobot/RoboticsAcademy/issues/3167">Update GUI to support publishing of images for the Web UI (Ros Native Follow Line)</a></li>
+  <li><a href="https://github.com/JdeRobot/RoboticsAcademy-solutions/issues/102">ROS 2 solution example (Subscriber based WebGUI)</a> (This is a private repo)</li>
+  <li><a href="https://github.com/JdeRobot/RoboticsAcademy/issues/3156">Vaccum cleaner exercise Docs (Ros Native)</a></li>
 </ul>
 
 <p><strong>Pull Requests</strong></p>
 <ul>
-  <li><a href="https://github.com/JdeRobot/RoboticsApplicationManager/pull/216">Add ROS 2 spin() support to user code</a></li>
-  <li><a href="https://github.com/JdeRobot/RoboticsApplicationManager/pull/221">Support for rclpy.spin_once() and user-defined frequency</a></li>
+  <li><a href="https://github.com/JdeRobot/RoboticsAcademy/pull/3168">GUI feature update for Ros native ( Follow line )</a></li>
+  <li><a href="https://github.com/JdeRobot/RoboticsAcademy-solutions/pull/103">GUI feature update for follow line solution</a> (This is a private repo)</li>
+  <li><a href="https://github.com/JdeRobot/RoboticsAcademy/pull/3157">Initial vacuum cleaner commit</a></li>
 </ul>
-
-<hr />
 
 <h3 id="key-learnings--outcomes"><span class="me-2">Key Learnings &amp; Outcomes</span><a href="#key-learnings--outcomes" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
-
 <ul>
-  <li>Implemented native ROS 2 loops using <code class="language-plaintext highlighter-rouge">rclpy.spin()</code> and <code class="language-plaintext highlighter-rouge">rclpy.spin_once()</code> within the existing framework</li>
-  <li>Enabled frequency control directly via user code, rather than injecting it from RAM</li>
-  <li>Identified architectural gaps that need to be addressed for logging and <code class="language-plaintext highlighter-rouge">frequency.py</code> migration</li>
+  <li>Resolved race condition issues with backend topic creation for reliable GUI communication</li>
+  <li>Enhanced understanding of ROS 2 publisher-subscriber patterns with web UI integration</li>
+  <li>Implemented vacuum cleaner navigation using spiral exploration and sensor data processing</li>
 </ul>
 
 <hr />
 
-<blockquote class="prompt-info">
-  <p>I will be taking a short break this coming week as I have exams scheduled. I’ll resume development and continue from <strong>June 28</strong>.</p>
-</blockquote>
-
-<p>Thanks for reading! Next up, I’ll finalize the GUI image publishing mechanism and continue refining the frequency and logging logic to better support ROS 2-native workflows.</p>
+<p>Thanks for reading! I’m excited about the progress made this week and looking forward to tackling the challenges ahead. If you have any questions or feedback, feel free to reach out!</p>
 
 <p>Until next week —<br />
 <em>Ashish</em></p>
@@ -876,7 +1050,7 @@ This week continued the <strong>Phase One</strong> of my GSoC project with <stro
         <i class="far fa-folder-open fa-fw me-1"></i>
         
           <a href="/gsoc2025-Ashish_Ramesh/categories/coding-period/">Coding Period</a>,
-          <a href="/gsoc2025-Ashish_Ramesh/categories/phase-one/">Phase One</a>
+          <a href="/gsoc2025-Ashish_Ramesh/categories/phase-two/">Phase Two</a>
       </div>
     
 
@@ -901,14 +1075,19 @@ This week continued the <strong>Phase One</strong> of my GSoC project with <stro
           >follow-line</a>
         
           <a
+            href="/gsoc2025-Ashish_Ramesh/tags/vaccum-cleaner/"
+            class="post-tag no-text-decoration"
+          >vaccum-cleaner</a>
+        
+          <a
             href="/gsoc2025-Ashish_Ramesh/tags/coding-period/"
             class="post-tag no-text-decoration"
           >coding-period</a>
         
           <a
-            href="/gsoc2025-Ashish_Ramesh/tags/phase-one/"
+            href="/gsoc2025-Ashish_Ramesh/tags/phase-two/"
             class="post-tag no-text-decoration"
-          >phase-one</a>
+          >phase-two</a>
         
       </div>
     
@@ -944,28 +1123,28 @@ This week continued the <strong>Phase One</strong> of my GSoC project with <stro
 
       
 
-      <a href="https://twitter.com/intent/tweet?text=Week%203%20-%20ROS%202%20Frequency%20Control%20&%20Spin%20Once%20(June%2017%20~%2023)%20-%20Ashish%20Ramesh%20%7C%20JdeRobot%20x%20GSoC%202025&url=http%3A%2F%2Flocalhost%3A4000%2Fgsoc2025-Ashish_Ramesh%2Fposts%2FWeek-3%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
+      <a href="https://twitter.com/intent/tweet?text=Week%206%20-%20ROS%202%20Follow%20Line%20GUI%20Updates%20and%20Vacuum%20Cleaner%20Implementation%20(July%2014%20~%20July%2021)%20-%20Ashish%20Ramesh%20%7C%20JdeRobot%20x%20GSoC%202025&url=http%3A%2F%2Flocalhost%3A4000%2Fgsoc2025-Ashish_Ramesh%2Fposts%2FWeek-6%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
         <i class="fa-fw fa-brands fa-square-x-twitter"></i>
       </a>
     
 
       
 
-      <a href="https://www.facebook.com/sharer/sharer.php?title=Week%203%20-%20ROS%202%20Frequency%20Control%20&%20Spin%20Once%20(June%2017%20~%2023)%20-%20Ashish%20Ramesh%20%7C%20JdeRobot%20x%20GSoC%202025&u=http%3A%2F%2Flocalhost%3A4000%2Fgsoc2025-Ashish_Ramesh%2Fposts%2FWeek-3%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
+      <a href="https://www.facebook.com/sharer/sharer.php?title=Week%206%20-%20ROS%202%20Follow%20Line%20GUI%20Updates%20and%20Vacuum%20Cleaner%20Implementation%20(July%2014%20~%20July%2021)%20-%20Ashish%20Ramesh%20%7C%20JdeRobot%20x%20GSoC%202025&u=http%3A%2F%2Flocalhost%3A4000%2Fgsoc2025-Ashish_Ramesh%2Fposts%2FWeek-6%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
         <i class="fa-fw fab fa-facebook-square"></i>
       </a>
     
 
       
 
-      <a href="https://t.me/share/url?url=http%3A%2F%2Flocalhost%3A4000%2Fgsoc2025-Ashish_Ramesh%2Fposts%2FWeek-3%2F&text=Week%203%20-%20ROS%202%20Frequency%20Control%20&%20Spin%20Once%20(June%2017%20~%2023)%20-%20Ashish%20Ramesh%20%7C%20JdeRobot%20x%20GSoC%202025" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
+      <a href="https://t.me/share/url?url=http%3A%2F%2Flocalhost%3A4000%2Fgsoc2025-Ashish_Ramesh%2Fposts%2FWeek-6%2F&text=Week%206%20-%20ROS%202%20Follow%20Line%20GUI%20Updates%20and%20Vacuum%20Cleaner%20Implementation%20(July%2014%20~%20July%2021)%20-%20Ashish%20Ramesh%20%7C%20JdeRobot%20x%20GSoC%202025" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
         <i class="fa-fw fab fa-telegram"></i>
       </a>
     
 
       
 
-      <a href="https://www.linkedin.com/sharing/share-offsite/?url=http%3A%2F%2Flocalhost%3A4000%2Fgsoc2025-Ashish_Ramesh%2Fposts%2FWeek-3%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Linkedin" aria-label="Linkedin">
+      <a href="https://www.linkedin.com/sharing/share-offsite/?url=http%3A%2F%2Flocalhost%3A4000%2Fgsoc2025-Ashish_Ramesh%2Fposts%2FWeek-6%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Linkedin" aria-label="Linkedin">
         <i class="fa-fw fab fa-linkedin"></i>
       </a>
     
@@ -1490,43 +1669,43 @@ This week continued the <strong>Phase One</strong> of my GSoC project with <stro
   
 
   
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
     
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
 
 
 
@@ -1540,6 +1719,35 @@ This week continued the <strong>Phase One</strong> of my GSoC project with <stro
   <aside id="related-posts" aria-labelledby="related-label">
     <h3 class="mb-4" id="related-label">Further Reading</h3>
     <nav class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4">
+      
+        <article class="col">
+          <a href="/gsoc2025-Ashish_Ramesh/posts/Week-5/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1752431400"
+  data-df="ll"
+  
+>
+  Jul 14, 2025
+</time>
+
+              <h4 class="pt-0 my-2">Week 5 - Mid Term Evaluation & Phase Two Begins! (July 07 ~ July 14)</h4>
+              <div class="text-muted">
+                <p>Hey everyone!
+This week marked an important milestone as I wrapped up the mid-term evaluation and kicked off Phase Two of my GSoC project with JdeRobot. It was a packed week of work to get back on ...</p>
+              </div>
+            </div>
+          </a>
+        </article>
       
         <article class="col">
           <a href="/gsoc2025-Ashish_Ramesh/posts/Week-4/" class="post-preview card h-100">
@@ -1571,7 +1779,7 @@ This week I got back to my GSoC project with JdeRobot after taking a short break
         </article>
       
         <article class="col">
-          <a href="/gsoc2025-Ashish_Ramesh/posts/week-2/" class="post-preview card h-100">
+          <a href="/gsoc2025-Ashish_Ramesh/posts/Week-3/" class="post-preview card h-100">
             <div class="card-body">
               <!--
   Date format snippet
@@ -1583,14 +1791,14 @@ This week I got back to my GSoC project with JdeRobot after taking a short break
 
 <time
   
-  data-ts="1750012200"
+  data-ts="1750617000"
   data-df="ll"
   
 >
-  Jun 16, 2025
+  Jun 23, 2025
 </time>
 
-              <h4 class="pt-0 my-2">Week 2 - ROS 2 Spin Logic & Design Decisions (June 10 ~ 16)</h4>
+              <h4 class="pt-0 my-2">Week 3 - ROS 2 Frequency Control & Spin Once (June 17 ~ 23)</h4>
               <div class="text-muted">
                 <p>Hey everyone!
 This week continued the Phase One of my GSoC project with JdeRobot, where I’m working on porting the Follow Line exercise to use ROS 2-native code inside Robotics Academy.
@@ -1598,36 +1806,6 @@ This week continued the Phase One of my GSoC project with JdeRobot, where I’m 
 
 
 Objectiv...</p>
-              </div>
-            </div>
-          </a>
-        </article>
-      
-        <article class="col">
-          <a href="/gsoc2025-Ashish_Ramesh/posts/Week-1/" class="post-preview card h-100">
-            <div class="card-body">
-              <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1749407400"
-  data-df="ll"
-  
->
-  Jun  9, 2025
-</time>
-
-              <h4 class="pt-0 my-2">Week 1 - Coding Period Begins! (June 2 ~ 9)</h4>
-              <div class="text-muted">
-                <p>Hey everyone! 
-This week officially kicked off the GSoC 2025 coding period! I’m thrilled to be contributing to JdeRobot through the project:
-“Robotics-Academy: Support for Solutions Directly Using ...</p>
               </div>
             </div>
           </a>
@@ -1648,22 +1826,18 @@ This week officially kicked off the GSoC 2025 coding period! I’m thrilled to b
 
   
     <a
-      href="/gsoc2025-Ashish_Ramesh/posts/week-2/"
+      href="/gsoc2025-Ashish_Ramesh/posts/Week-5/"
       class="btn btn-outline-primary"
       aria-label="Older"
     >
-      <p>Week 2 - ROS 2 Spin Logic & Design Decisions (June 10 ~ 16)</p>
+      <p>Week 5 - Mid Term Evaluation & Phase Two Begins! (July 07 ~ July 14)</p>
     </a>
   
 
   
-    <a
-      href="/gsoc2025-Ashish_Ramesh/posts/Week-4/"
-      class="btn btn-outline-primary"
-      aria-label="Newer"
-    >
-      <p>Week 4 - Docs Updates & Frequency Control with Rate (June 30 ~ July 07)</p>
-    </a>
+    <div class="btn btn-outline-primary disabled" aria-label="Newer">
+      <p>-</p>
+    </div>
   
 </nav>
 
