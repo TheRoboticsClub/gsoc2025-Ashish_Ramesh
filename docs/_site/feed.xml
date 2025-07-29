@@ -4,7 +4,7 @@
   <id>http://localhost:4000/gsoc2025-Ashish_Ramesh/</id>
   <title>Ashish Ramesh | JdeRobot x GSoC 2025</title>
   <subtitle>Weekly GSoC updates, ROS 2 development logs, and open source contributions with JdeRobot during Google Summer of Code 2025.</subtitle>
-  <updated>2025-07-21T18:36:36+05:30</updated>
+  <updated>2025-07-29T19:41:06+05:30</updated>
   <author>
     <name>Ashish Ramesh</name>
     <uri>http://localhost:4000/gsoc2025-Ashish_Ramesh/</uri>
@@ -17,6 +17,50 @@
   <icon>/gsoc2025-Ashish_Ramesh/assets/img/favicons/favicon.ico</icon>
   <logo>/gsoc2025-Ashish_Ramesh/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Week 7 - ROS 2 Follow Line GUI Updates and Vacuum Cleaner Implementation (July 21 ~ July 28)</title>
+    <link href="http://localhost:4000/gsoc2025-Ashish_Ramesh/posts/Week-7/" rel="alternate" type="text/html" title="Week 7 - ROS 2 Follow Line GUI Updates and Vacuum Cleaner Implementation (July 21 ~ July 28)" />
+    <published>2025-07-28T00:00:00+05:30</published>
+  
+    <updated>2025-07-28T00:00:00+05:30</updated>
+  
+    <id>http://localhost:4000/gsoc2025-Ashish_Ramesh/posts/Week-7/</id>
+    <content type="text/html" src="http://localhost:4000/gsoc2025-Ashish_Ramesh/posts/Week-7/" />
+    <author>
+      <name>Ashish Ramesh</name>
+    </author>
+
+  
+    
+    <category term="Coding Period" />
+    
+    <category term="Phase Two" />
+    
+  
+
+  <summary>Hey everyone!
+This week I continued to work on the ROS 2-native port of the Vacuum Cleaner exercise implementing necessary features for a smooth user experience.
+
+
+
+Objectives for the Week
+
+
+  Update GUI Vacuum Cleaner for the Web UI
+  Vacuum cleaner exercise Docs (Ros Native)
+  General improvements and bug fixes
+  Logging fix for VNC Console
+
+
+
+
+What I Worked On
+
+This week, I focused on genera...</summary>
+
+  </entry>
 
   
   <entry>
@@ -160,43 +204,6 @@ Objectives for the Week
   Add support for rclpy.spin_once() and implement user-controlled frequency
   Migration of frequency.py into RA
   ...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Week 2 - ROS 2 Spin Logic &amp; Design Decisions (June 10 ~ 16)</title>
-    <link href="http://localhost:4000/gsoc2025-Ashish_Ramesh/posts/week-2/" rel="alternate" type="text/html" title="Week 2 - ROS 2 Spin Logic &amp;amp; Design Decisions (June 10 ~ 16)" />
-    <published>2025-06-16T00:00:00+05:30</published>
-  
-    <updated>2025-06-16T00:00:00+05:30</updated>
-  
-    <id>http://localhost:4000/gsoc2025-Ashish_Ramesh/posts/week-2/</id>
-    <content type="text/html" src="http://localhost:4000/gsoc2025-Ashish_Ramesh/posts/week-2/" />
-    <author>
-      <name>Ashish Ramesh</name>
-    </author>
-
-  
-    
-    <category term="Coding Period" />
-    
-    <category term="Phase One" />
-    
-  
-
-  <summary>Hey everyone!
-This week continued the Phase One of my GSoC project with JdeRobot, where I’m working on porting the Follow Line exercise to use ROS 2-native code inside Robotics Academy.
-
-
-
-Objectives for the Week
-
-
-  Clarify whether we should skip prepare_RA_code() or not
-  Understand BT Studio vs RA exercise structure
-  Decide: new exercise vs modifying the current one
-  Make Follow Line work ...</summary>
 
   </entry>
 
