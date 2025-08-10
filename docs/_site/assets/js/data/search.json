@@ -1,7 +1,41 @@
 [
   
   {
-    "title": "Week 7 - ROS 2 Follow Line GUI Updates and Vacuum Cleaner Implementation (July 21 ~ July 28)",
+    "title": "Final Report- Robotics Academy Porting Exercises to Native ROS2 with Direct Topic Integration",
+    "url": "/gsoc2025-Ashish_Ramesh/posts/Final-Report/",
+    "categories": "Coding Period, Phase Two",
+    "tags": "robotics-academy, ros2, vaccum-cleaner, coding-period, phase-two",
+    "date": "2025-08-10 00:00:00 +0530",
+    
+
+
+
+
+
+    
+    "snippet": "Organization: JdeRobotStudent: Ashish Ramesh (GitHub, LinkedIn)Mentors: Pedro Arias-Perez, Apoorv Garg, Pawan Wadhwani, Prajyot JadhavLink to GSoC Project Page: Robotics-Academy: Porting Exercises ...",
+    "content": "Organization: JdeRobotStudent: Ashish Ramesh (GitHub, LinkedIn)Mentors: Pedro Arias-Perez, Apoorv Garg, Pawan Wadhwani, Prajyot JadhavLink to GSoC Project Page: Robotics-Academy: Porting Exercises to Native ROS2 with Direct Topic IntegrationHello everyone,This summer, I had the opportunity to contribute to Robotics Academy through the Google Summer of Code 2025 program. My project focused on upgrading the Robotics-Academy’s Docker-based framework by porting exercises to native ROS2 with direct topic integration. My project proposal can be found here.About meI have a Bachelor’s degree in Computer Science Engineering from MVJ College of Engineering, India. My interests lie in software engineering and robotics. Google Summer of Code 2025 marked my first substantial contribution to open source, and it was an amazing experience.About the ProjectJdeRobot’s Robotics-Academy provides exercises to learn robotics and AI while abstracting students from the complexities of the framework. The dockerized containers and web templates offer cross-platform functionality, simplifying the setup process. This allows beginners to focus on coding and testing their algorithms without dealing with extensive software installation.Currently, Robotics-Academy uses Gazebo11 in the Robotics-Academy Docker Image (RADI) framework. The primary goal of my project was to migrate the RADI to Gazebo Harmonic and update exercises accordingly. Also, I replaced PX4 with the lighter Aerostack2 Gazebo platform for drone-based exercises, enhancing efficiency.GitHub ContributionsOver the summer, I submitted 14 pull requests across 3 repositories, all of which have been merged. These pull requests addressed 12 issues, and my contributions will be incorporated into the upcoming releases of JdeRobot’s Robotics-Academy.            Pull Request      Solves Issue      Description      More                  Robotics Academy                                   #3150      #3148      Follow Line Exercise docs update with  ROS 2 topics &amp; new modules info      Week 4 Blog              #3157      #3156      Vacuum Cleaner Exercise docs update with  ROS 2 topics &amp; new modules info      Week 5 Blog              #3168      #3167      Update GUI to support publishing of images  for the Web UI (Ros Native Follow Line)      Week 6 Blog              Robotics Application Manager                                   #216      #217      ROS 2 spin() support to user code      Week 2 Blog              #221      #218      Support for rclpy.spin_once()      Week 3 Blog              #228      #227      Frequency control using rate      Week 4 Blog              #230      #227      Branch Sync      Week 5 Blog              Robotics Academy Solutions  (This is a private repo)                                   #100, #103      #98, #102      Follow line ROS Native Solution      Week 5 Blog,  Week 6 Blog      Thanks for reading! I’m excited about the progress made this week and looking forward to tackling the challenges ahead. If you have any questions or feedback, feel free to reach out!Until next week —Ashish"
+  },
+  
+  {
+    "title": "Week 8 - ROS 2 Follow Line GUI Updates and Vacuum Cleaner Implementation (July 28 ~ August 4)",
+    "url": "/gsoc2025-Ashish_Ramesh/posts/Week-8/",
+    "categories": "Coding Period, Phase Two",
+    "tags": "robotics-academy, ros2, vaccum-cleaner, coding-period, phase-two",
+    "date": "2025-08-04 00:00:00 +0530",
+    
+
+
+
+
+
+    
+    "snippet": "Hey everyone!This week I completed work on the ROS 2-native port of the Vacuum Cleaner exercise implementing necessary features for a smooth user experience.Objectives for the Week  Fixed Web GUI f...",
+    "content": "Hey everyone!This week I completed work on the ROS 2-native port of the Vacuum Cleaner exercise implementing necessary features for a smooth user experience.Objectives for the Week  Fixed Web GUI for Vacuum Cleaner  Solution for vacuum cleaner using GUI  Draft for the Final ReportWhat I Worked OnThis week, I focused on fixes for the ROS 2-native implementation of the Vacuum Cleaner exercise. The main tasks included updating the GUI for the Web UI, and starting work on the draft for the Final Report.I started by fixing the GUI for the Vacuum Cleaner exercise to ensure it works seamlessly with the Web UI. This involved updating the GUI to ensure proper threading and executor management, the implementation is similar to the follow line GUI implementation where there exists automatic and manual modes for support for both ROS native and HAL implementations.I’m happy to report that this solution is working well and the GUI now updates the map as expected!After working on the GUI module, I moved on to updating the solution for the Vacuum Cleaner exercise. The solution now leverages the updated GUI and incorporates the necessary changes to work seamlessly with the ROS 2 architecture. This includes ensuring that all relevant topics and services are correctly integrated and that the exercise behaves as expected in a ROS 2 environment. The GUI map updates in real-time as the robot moves, providing users with immediate feedback on the robot’s position and the state of the environment.Vacuum Cleaner exercise ROS Native implementation I also started working on the draft for the Final Report. This involves documenting the changes made during the project, the challenges faced, and the solutions implemented. I aim to provide a comprehensive overview of the project and its outcomes.This draft will serve as a foundation for the final report, which will be submitted at the end of the coding period.PRs &amp; Issues RaisedHere are the contributions made this week:Issues  fix vaccum cleaner GUI  Vacuum Cleaner Solution ( with GUI Implementation ) (This is a private repo)Pull Requests  GUI feature update for Ros native ( Vacuum Cleaner )  Vacuum Cleaner exercise (GUI Implementation) (This is a private repo)Thanks for reading! I’m excited about the progress made this week and looking forward to tackling the challenges ahead. If you have any questions or feedback, feel free to reach out!Until next week —Ashish"
+  },
+  
+  {
+    "title": "Week 7 - ROS 2 Follow Line GUI Updates and Vacuum Cleaner Implementation (July 21 ~ 28)",
     "url": "/gsoc2025-Ashish_Ramesh/posts/Week-7/",
     "categories": "Coding Period, Phase Two",
     "tags": "robotics-academy, ros2, vaccum-cleaner, coding-period, phase-two",
