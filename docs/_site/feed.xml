@@ -4,7 +4,7 @@
   <id>http://localhost:4000/gsoc2025-Ashish_Ramesh/</id>
   <title>Ashish Ramesh | JdeRobot x GSoC 2025</title>
   <subtitle>Weekly GSoC updates, ROS 2 development logs, and open source contributions with JdeRobot during Google Summer of Code 2025.</subtitle>
-  <updated>2025-08-10T23:35:45+05:30</updated>
+  <updated>2025-08-11T21:00:51+05:30</updated>
   <author>
     <name>Ashish Ramesh</name>
     <uri>http://localhost:4000/gsoc2025-Ashish_Ramesh/</uri>
@@ -22,9 +22,9 @@
   <entry>
     <title>Final Report- Robotics Academy Porting Exercises to Native ROS2 with Direct Topic Integration</title>
     <link href="http://localhost:4000/gsoc2025-Ashish_Ramesh/posts/Final-Report/" rel="alternate" type="text/html" title="Final Report- Robotics Academy Porting Exercises to Native ROS2 with Direct Topic Integration" />
-    <published>2025-08-10T00:00:00+05:30</published>
+    <published>2025-08-11T00:00:00+05:30</published>
   
-    <updated>2025-08-10T00:00:00+05:30</updated>
+    <updated>2025-08-11T00:00:00+05:30</updated>
   
     <id>http://localhost:4000/gsoc2025-Ashish_Ramesh/posts/Final-Report/</id>
     <content type="text/html" src="http://localhost:4000/gsoc2025-Ashish_Ramesh/posts/Final-Report/" />
@@ -37,6 +37,8 @@
     <category term="Coding Period" />
     
     <category term="Phase Two" />
+    
+    <category term="Final Report" />
     
   
 
@@ -102,7 +104,7 @@ This week, I focused on fixes for the ROS 2-native implementation of the Vacuum 
     <link href="http://localhost:4000/gsoc2025-Ashish_Ramesh/posts/Week-7/" rel="alternate" type="text/html" title="Week 7 - ROS 2 Follow Line GUI Updates and Vacuum Cleaner Implementation (July 21 ~ 28)" />
     <published>2025-07-28T00:00:00+05:30</published>
   
-    <updated>2025-07-28T00:00:00+05:30</updated>
+    <updated>2025-08-10T23:37:27+05:30</updated>
   
     <id>http://localhost:4000/gsoc2025-Ashish_Ramesh/posts/Week-7/</id>
     <content type="text/html" src="http://localhost:4000/gsoc2025-Ashish_Ramesh/posts/Week-7/" />
