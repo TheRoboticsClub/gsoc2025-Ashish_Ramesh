@@ -4,7 +4,7 @@
   <id>http://localhost:4000/gsoc2025-Ashish_Ramesh/</id>
   <title>Ashish Ramesh | JdeRobot x GSoC 2025</title>
   <subtitle>Weekly GSoC updates, ROS 2 development logs, and open source contributions with JdeRobot during Google Summer of Code 2025.</subtitle>
-  <updated>2025-08-12T15:27:33+05:30</updated>
+  <updated>2025-08-17T22:12:50+05:30</updated>
   <author>
     <name>Ashish Ramesh</name>
     <uri>http://localhost:4000/gsoc2025-Ashish_Ramesh/</uri>
@@ -20,11 +20,11 @@
 
   
   <entry>
-    <title>Final Report- Robotics Academy Porting Exercises to Native ROS2 with Direct Topic Integration</title>
-    <link href="http://localhost:4000/gsoc2025-Ashish_Ramesh/posts/Final-Report/" rel="alternate" type="text/html" title="Final Report- Robotics Academy Porting Exercises to Native ROS2 with Direct Topic Integration" />
+    <title>Final Report- Robotics Academy Porting Exercises to Native ROS 2 with Direct Topic Integration</title>
+    <link href="http://localhost:4000/gsoc2025-Ashish_Ramesh/posts/Final-Report/" rel="alternate" type="text/html" title="Final Report- Robotics Academy Porting Exercises to Native ROS 2 with Direct Topic Integration" />
     <published>2025-08-11T00:00:00+05:30</published>
   
-    <updated>2025-08-11T21:03:00+05:30</updated>
+    <updated>2025-08-12T15:30:59+05:30</updated>
   
     <id>http://localhost:4000/gsoc2025-Ashish_Ramesh/posts/Final-Report/</id>
     <content type="text/html" src="http://localhost:4000/gsoc2025-Ashish_Ramesh/posts/Final-Report/" />
