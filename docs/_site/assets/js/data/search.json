@@ -1,6 +1,23 @@
 [
   
   {
+    "title": "Week 9 & 10 - Wrapping Up and Final Touches on My GSoC Journey (August 4 ~ 17)",
+    "url": "/gsoc2025-Ashish_Ramesh/posts/Week-9/",
+    "categories": "Coding Period, Phase Two",
+    "tags": "robotics-academy, ros2, vaccum-cleaner, coding-period, phase-two",
+    "date": "2025-08-17 00:00:00 +0530",
+    
+
+
+
+
+
+    
+    "snippet": "Hey everyone!This is the last blog regarding my updates for my GSoC project, where I wrapped up the ROS 2-native implementation work and prepared everything for production deployment.Objectives for...",
+    "content": "Hey everyone!This is the last blog regarding my updates for my GSoC project, where I wrapped up the ROS 2-native implementation work and prepared everything for production deployment.Objectives for the Week  Fixed Web GUI import for exercises  Updated Solution for for both exercises  Updated documentation  Branch Sync and PRs for production branch  Demo Video  Final ReportWhat I Worked OnThis week, I focused on finalizing the ROS 2-native implementation of the Vacuum Cleaner exercise and the Follow Line exercise. The main tasks included updating the import of WebGUI for both exercises to ensure a consistent user experience. I also updated and finalized the documentation and created PRs to merge to production.I started by fixing the WebGUI imports for both exercises. Previously, for the WebGUI to work it had to be imported and then initialized in the user code asimport GUIself.gui = GUI.get_gui()This seemed unintuitive, so I updated the WebGUI module to handle its own initialization. Now, users can simply import the WebGUI and use it without needing to create an instance manually.from WebGUI import guiImporting the WebGUI module now automatically initializes the GUI, making it easier for users to get started with the exercises. I also updated the documentation to reflect these changes and provide clear examples for users. The solutions for both exercises have been updated accordingly.Once this was done I started working on syncing all branches to ensure that the latest changes were reflected across the board. This involved pulling the latest changes from the main branch and resolving any conflicts that arose. I also took the opportunity to clean up the codebase, removing any unused imports and optimizing the overall structure of the code. I also created pull requests for the ros-native branch to be merged to production.I’m happy to report that all the code developed during this phase has been successfully integrated and has been pushed to production!I then started working on a demo video to showcase my work on the ROS 2-native implementation of the Vacuum Cleaner exercise and the Follow Line exercise. The video provides an overview of the key features and improvements made during GSoC. You can find it here:ROS Native implementation Demo VideoI also completed the final report documenting the entire process and outcomes of the project.PRs &amp; Issues RaisedHere are the contributions made this week:Issues  Fix GUI import method for ros native  ros-native branch sync ( RA )  ros-native branch sync ( RAM )  ros-native branch sync ( Solutions ) (This is a private repo)Pull Requests  Update ros-native with humble-devel changes (Week 5 sync)  Fix Follow Line GUI import method for ros native  gh pages ros native branch sync &amp; WebGUI update  Update ros-native with changes (Week 5 sync)  ROS 2 Native Support for Follow line &amp; Vacuum Cleaner Exercises  ROS 2 Native Support for Follow line &amp; Vacuum Cleaner Exercises (gh-pages)  WebGUI migration fix (This is a private repo)  ros-native branch sync ( Solutions ) (This is a private repo)  ROS 2 Native Solutions for Follow line &amp; Vacuum Cleaner Exercises (This is a private repo)This will be my final post here (apart from the Final Report). Thank you for following my journey throughout this project! I’m grateful for the support and guidance I’ve received along the way. Looking forward to applying what I’ve learned in future endeavors.With gratitude, signing off —Ashish"
+  },
+  
+  {
     "title": "Final Report- Robotics Academy Porting Exercises to Native ROS 2 with Direct Topic Integration",
     "url": "/gsoc2025-Ashish_Ramesh/posts/Final-Report/",
     "categories": "Coding Period, Phase Two, Final Report",

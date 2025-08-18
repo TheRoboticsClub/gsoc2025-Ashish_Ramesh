@@ -4,7 +4,7 @@
   <id>http://localhost:4000/gsoc2025-Ashish_Ramesh/</id>
   <title>Ashish Ramesh | JdeRobot x GSoC 2025</title>
   <subtitle>Weekly GSoC updates, ROS 2 development logs, and open source contributions with JdeRobot during Google Summer of Code 2025.</subtitle>
-  <updated>2025-08-17T22:12:50+05:30</updated>
+  <updated>2025-08-18T23:10:16+05:30</updated>
   <author>
     <name>Ashish Ramesh</name>
     <uri>http://localhost:4000/gsoc2025-Ashish_Ramesh/</uri>
@@ -20,11 +20,55 @@
 
   
   <entry>
+    <title>Week 9 &amp; 10 - Wrapping Up and Final Touches on My GSoC Journey (August 4 ~ 17)</title>
+    <link href="http://localhost:4000/gsoc2025-Ashish_Ramesh/posts/Week-9/" rel="alternate" type="text/html" title="Week 9 &amp;amp; 10 - Wrapping Up and Final Touches on My GSoC Journey (August 4 ~ 17)" />
+    <published>2025-08-17T00:00:00+05:30</published>
+  
+    <updated>2025-08-17T00:00:00+05:30</updated>
+  
+    <id>http://localhost:4000/gsoc2025-Ashish_Ramesh/posts/Week-9/</id>
+    <content type="text/html" src="http://localhost:4000/gsoc2025-Ashish_Ramesh/posts/Week-9/" />
+    <author>
+      <name>Ashish Ramesh</name>
+    </author>
+
+  
+    
+    <category term="Coding Period" />
+    
+    <category term="Phase Two" />
+    
+  
+
+  <summary>Hey everyone!
+This is the last blog regarding my updates for my GSoC project, where I wrapped up the ROS 2-native implementation work and prepared everything for production deployment.
+
+
+
+Objectives for the Week
+
+
+  Fixed Web GUI import for exercises
+  Updated Solution for for both exercises
+  Updated documentation
+  Branch Sync and PRs for production branch
+  Demo Video
+  Final Report
+
+
+
+
+What...</summary>
+
+  </entry>
+
+  
+  <entry>
     <title>Final Report- Robotics Academy Porting Exercises to Native ROS 2 with Direct Topic Integration</title>
     <link href="http://localhost:4000/gsoc2025-Ashish_Ramesh/posts/Final-Report/" rel="alternate" type="text/html" title="Final Report- Robotics Academy Porting Exercises to Native ROS 2 with Direct Topic Integration" />
     <published>2025-08-11T00:00:00+05:30</published>
   
-    <updated>2025-08-12T15:30:59+05:30</updated>
+    <updated>2025-08-17T22:15:52+05:30</updated>
   
     <id>http://localhost:4000/gsoc2025-Ashish_Ramesh/posts/Final-Report/</id>
     <content type="text/html" src="http://localhost:4000/gsoc2025-Ashish_Ramesh/posts/Final-Report/" />
@@ -174,42 +218,6 @@ Objectives for the Week
 
   Update GUI to support publishing of images for the Web UI (Ros Native Follow Line)
   ROS 2 solution example (Subscriber based ...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Week 5 - Mid Term Evaluation &amp; Phase Two Begins! (July 07 ~ July 14)</title>
-    <link href="http://localhost:4000/gsoc2025-Ashish_Ramesh/posts/Week-5/" rel="alternate" type="text/html" title="Week 5 - Mid Term Evaluation &amp;amp; Phase Two Begins! (July 07 ~ July 14)" />
-    <published>2025-07-14T00:00:00+05:30</published>
-  
-    <updated>2025-07-14T00:00:00+05:30</updated>
-  
-    <id>http://localhost:4000/gsoc2025-Ashish_Ramesh/posts/Week-5/</id>
-    <content type="text/html" src="http://localhost:4000/gsoc2025-Ashish_Ramesh/posts/Week-5/" />
-    <author>
-      <name>Ashish Ramesh</name>
-    </author>
-
-  
-    
-    <category term="Coding Period" />
-    
-    <category term="Phase Two" />
-    
-  
-
-  <summary>Hey everyone!
-This week marked an important milestone as I wrapped up the mid-term evaluation and kicked off Phase Two of my GSoC project with JdeRobot. It was a packed week of work to get back on schedule after my exam break, and I’m excited to share the progress.
-
-
-
-Objectives for the Week
-
-
-  ROS Native Solution for follow_line exercise
-  Image output in the GUI
-  Fix logging in the VNC Cons...</summary>
 
   </entry>
 
